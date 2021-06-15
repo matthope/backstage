@@ -1,5 +1,14 @@
 # @backstage/plugin-scaffolder-backend
 
+## 0.12.1
+
+### Patch Changes
+
+- 090dfe65d: Adds support to enable LFS for hosted Bitbucket
+- df3ac03cf: Use the correct parameter to create a public repository in Bitbucket Server.
+- Updated dependencies [1d2ed7844]
+  - @backstage/catalog-model@0.8.3
+
 ## 0.12.0
 
 ### Minor Changes

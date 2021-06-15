@@ -1,5 +1,11 @@
 # @backstage/core-components
 
+## 0.1.3
+
+### Patch Changes
+
+- d2c31b132: Add title prop in SupportButton component
+
 ## 0.1.2
 
 ### Patch Changes

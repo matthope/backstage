@@ -1,5 +1,11 @@
 # @backstage/plugin-proxy-backend
 
+## 0.2.10
+
+### Patch Changes
+
+- 6ffcf9ed8: Bump http-proxy-middleware from 0.19.2 to 2.0.0
+
 ## 0.2.9
 
 ### Patch Changes

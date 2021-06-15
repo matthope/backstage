@@ -1,5 +1,18 @@
 # @backstage/plugin-catalog-backend
 
+## 0.10.3
+
+### Patch Changes
+
+- 72fbf4372: Switches the default catalog processing engine to use a batched streaming task execution strategy for higher parallelism.
+- 18ab535c8: Rely on `SELECT ... FOR UPDATE SKIP LOCKED` where available in order to speed up processing item acquisition and reduce work duplication.
+- db17fd734: Make refresh interval configurable for the `NextCatalogBuilder` using `.setRefreshIntervalSeconds()`.
+
+  Change `DefaultProcessingDatabase` constructor to accept an options object instead of individual arguments.
+
+- Updated dependencies [1d2ed7844]
+  - @backstage/catalog-model@0.8.3
+
 ## 0.10.2
 
 ### Patch Changes
